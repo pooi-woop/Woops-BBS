@@ -1,0 +1,12 @@
+# mysql
+database:
+  username: "root"         # 数据库用户名
+  password: "qweasdzxc"       # 数据库密码
+  host: "127.0.0.1"        # 数据库主机地址
+  port: "3306"             # 数据库端口
+  dbname: "WoopsBBS"      # 数据库名称
+  charset: "utf8mb4"       # 字符集
+  max_open_conns: 100      # 最大打开连接数
+  max_idle_conns: 20       # 最大空闲连接数
+  conn_max_lifetime: 1800  # 连接最大存活时间（秒）
+  log_mode: 3              # 日志级别（0:silent, 1:error, 2:warn, 3:info）
